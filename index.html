@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My project</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .image-size {
+            width: 90px;
+            height: 85px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a href="#">
+                <img class="image-size" src="./image/Logo-1.png" alt="">
+            </a>
+            <h3 class="text-danger">Online Shop</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fashions">Fashions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#computer">Computers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mobile%20phone">Phones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Accessories">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- The End of Navbar -->
+    <!-- Container -->
+    <div class="container">
+        <!-- Greeting row -->
+        <div class="row p-3" style="background-color: lightgray">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <h1 class="display-4 mt-5">Welcome to my online shop</h1>
+                <p class="lead">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+                    illum cupiditate adipisci. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Nobis, repellendus. Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Consequuntur nam molestiae eum
+                    consectetur suscipit.
+                </p>
+                <hr />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                    in iste ea hic? Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Dolorum sit amet odio! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Enim, aspernatur!
+                </p>
+                <a href="#popular" class="btn btn-primary py-2 px-3 mt-3 mb-5">see more</a>
+                <a href="#popular" class="btn btn-danger py-2 px-3 mt-3 mb-5">shop now</a>
+                <hr />
+            </div>
+        </div>
+        <!-- The End Greeting row -->
+        <!-- Popular row -->
+        <div class="row p-3" id="popular" style="background-color: lightgrey">
+            <!-- Header -->
+            <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                <h1 class="display-4 text-center mt-5">Popular Products</h1>
+                <hr />
+            </div>
+            <!-- The End Header -->
+            <!-- Card Content -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: lightgray">
+                    <img src="image/Fashion-A.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Dsquared1</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut
+                            deserunt earum eos cum. Deleniti dolore quod dicta molestiae
+                            repellendus.
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail </a>
+                        <a href="#" class="btn btn-danger">shop now </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: lightgray">
+                    <img src="image/Fashion-B.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Dsquared2</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut
+                            deserunt earum eos cum. Deleniti dolore quod dicta molestiae
+                            repellendus.
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail </a>
+                        <a href="#" class="btn btn-danger">shop now </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: lightgray">
+                    <img src="image/Fashion-C.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Dsquared3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut
+                            deserunt earum eos cum. Deleniti dolore quod dicta molestiae
+                            repellendus.
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail </a>
+                        <a href="#" class="btn btn-danger">shop now </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: lightgray">
+                    <img src="image/Fashion-D.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">Dsquared4</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut
+                            deserunt earum eos cum. Deleniti dolore quod dicta molestiae
+                            repellendus.
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail </a>
+                        <a href="#" class="btn btn-danger">shop now </a>
+                    </div>
+                </div>
+            </div>
+            <!-- The E nd Card Content -->
+        </div>
+        <!-- The End of Popular row -->
+        <hr />
+        <!-- fashion row -->
+        <div class="row p-3" id="fashions" style="background-color: lightgray">
+            <!-- Header -->
+            <h3 class="w-100 bg-danger text-center text-white py-2 my-3 rounded">
+                Fashion
+            </h3>
+            <!-- The End of  Header -->
+            <!-- Content-Card -->
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/Fashion-E.webp" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">new rowmatice</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                            perferendis id suscipit quisquam ex eveniet nihil in quaerat
+                            neque molestiae? Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Numquam quas repellendus doloribus, fugit
+                            necessitatibus beatae.
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now</a>
+                        <p class="card-text mt-3">
+                            <small class="text-mute">Last updated 3 mins ago</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- The End of Content-Card -->
+        </div>
+        <!-- The End of fashion row -->
+        <hr />
+        <!-- Computer Row -->
+        <div class="row p-3" id="computer" style="background-color: lightgray">
+            <!-- heading -->
+            <h3 class="w-100 bg-warning text-center text-dark py-2 my-3 rounded">
+                Computer
+            </h3>
+            <!-- The End of heading -->
+            <!-- Card Content -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/C-5.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>CPU: AMD RyzenTM 7 5825U Processor ( Cores8,Threads16, 2.00GHz Up to 4.50GHz )</li>
+                            <li>RAM: 16GB DDR4</li>
+                            <li>Storage: SSD 512GB PCIE</li>
+                            <li>Optical Drive: N/A</li>
+                            <li>Graphic: AMD RadeonTM Graphics</li>
+                            <li>Display: 14.0"FHD(1920 x 1080) Non Touch</li>
+                            <li>Wi-Fi + Bluetooth Ports</li>
+                            <li>1x USB 3.2 Gen 1</li>
+                            <li>1x USB 3.2 Gen 1 (Always On)</li>
+                            <li>2x USB-C 3.2 Gen 1</li>
+                            <li>1x HDMI 1.4b</li>
+                            <li>1x Card reader</li>
+                            <li>1x Headphone / microphone combo jack (3.5mm)</li>
+                            <li>Battery: 3cell</li>
+                            <li>Weight: 1.39kg</li>
+                            <li>OS: Win 11H License</li>
+                            <li>Color: Cloud Grey</li>
+                            <li>Warranty</li>
+                            <li>1-year hardware</li>
+                            <li>( 6month warranty for screen, battery, keyboard )</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/C-6.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">ACER ASPIRE</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>CPU: AMD RyzenTM 7 5825U Processor ( Cores8,Threads16, 2.00GHz Up to 4.50GHz )</li>
+                            <li>RAM: 16GB DDR4</li>
+                            <li>Storage: SSD 512GB PCIE</li>
+                            <li>Optical Drive: N/A</li>
+                            <li>Graphic: AMD RadeonTM Graphics</li>
+                            <li>Display: 14.0"FHD(1920 x 1080) Non Touch</li>
+                            <li>Wi-Fi + Bluetooth Ports</li>
+                            <li>1x USB 3.2 Gen 1</li>
+                            <li>1x USB 3.2 Gen 1 (Always On)</li>
+                            <li>2x USB-C 3.2 Gen 1</li>
+                            <li>1x HDMI 1.4b</li>
+                            <li>1x Card reader</li>
+                            <li>1x Headphone / microphone combo jack (3.5mm)</li>
+                            <li>Battery: 3cell</li>
+                            <li>Weight: 1.39kg</li>
+                            <li>OS: Win 11H License</li>
+                            <li>Color: Cloud Grey</li>
+                            <li>Warranty</li>
+                            <li>1-year hardware</li>
+                            <li>( 6month warranty for screen, battery, keyboard )</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/C-7.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">HUAWEI</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>CPU: AMD RyzenTM 7 5825U Processor ( Cores8,Threads16, 2.00GHz Up to 4.50GHz )</li>
+                            <li>RAM: 16GB DDR4</li>
+                            <li>Storage: SSD 512GB PCIE</li>
+                            <li>Optical Drive: N/A</li>
+                            <li>Graphic: AMD RadeonTM Graphics</li>
+                            <li>Display: 14.0"FHD(1920 x 1080) Non Touch</li>
+                            <li>Wi-Fi + Bluetooth Ports</li>
+                            <li>1x USB 3.2 Gen 1</li>
+                            <li>1x USB 3.2 Gen 1 (Always On)</li>
+                            <li>2x USB-C 3.2 Gen 1</li>
+                            <li>1x HDMI 1.4b</li>
+                            <li>1x Card reader</li>
+                            <li>1x Headphone / microphone combo jack (3.5mm)</li>
+                            <li>Battery: 3cell</li>
+                            <li>Weight: 1.39kg</li>
+                            <li>OS: Win 11H License</li>
+                            <li>Color: Cloud Grey</li>
+                            <li>Warranty</li>
+                            <li>1-year hardware</li>
+                            <li>( 6month warranty for screen, battery, keyboard )</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/C-8.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">ACER</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>CPU: AMD RyzenTM 7 5825U Processor ( Cores8,Threads16, 2.00GHz Up to 4.50GHz )</li>
+                            <li>RAM: 16GB DDR4</li>
+                            <li>Storage: SSD 512GB PCIE</li>
+                            <li>Optical Drive: N/A</li>
+                            <li>Graphic: AMD RadeonTM Graphics</li>
+                            <li>Display: 14.0"FHD(1920 x 1080) Non Touch</li>
+                            <li>Wi-Fi + Bluetooth Ports</li>
+                            <li>1x USB 3.2 Gen 1</li>
+                            <li>1x USB 3.2 Gen 1 (Always On)</li>
+                            <li>2x USB-C 3.2 Gen 1</li>
+                            <li>1x HDMI 1.4b</li>
+                            <li>1x Card reader</li>
+                            <li>1x Headphone / microphone combo jack (3.5mm)</li>
+                            <li>Battery: 3cell</li>
+                            <li>Weight: 1.39kg</li>
+                            <li>OS: Win 11H License</li>
+                            <li>Color: Cloud Grey</li>
+                            <li>Warranty</li>
+                            <li>1-year hardware</li>
+                            <li>( 6month warranty for screen, battery, keyboard )</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now </a>
+                    </div>
+                </div>
+            </div>
+            <!-- The End of Card Content -->
+        </div>
+        <!-- The End of Computer Row -->
+        <hr />
+        <!-- Mobile Phone Row-->
+        <div class="row p-3" id="mobile phone" style="background-color: lightgray">
+            <!-- Header -->
+            <h3 class="w-100 bg-success text-center text-white py-2 my-3 rounded">
+                Mobile Phone
+            </h3>
+            <!-- End of Header -->
+            <!-- Card Content -->
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/Phone-1.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">OukiTel C5 Pro</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Display: 5-inch 1280 x 720p</li>
+                            <li>Processor: MediaTek MT6737</li>
+                            <li>RAM: 2GB</li>
+                            <li>ROM: 16GB on-board, expandable</li>
+                            <li>Cameras: 2 mega-pixel front, 5 mega-pixel rear (interpolated to 5 mega-pixel and 8
+                                mega-pixel respectively)</li>
+                            <li>Battery: 2000mAh</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/Phone-2.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">OukiTel C5 Pro</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>Display: 5-inch 1280 x 720p</li>
+                            <li>Processor: MediaTek MT6737</li>
+                            <li>RAM: 2GB</li>
+                            <li>ROM: 16GB on-board, expandable</li>
+                            <li>Cameras: 2 mega-pixel front, 5 mega-pixel rear (interpolated to 5 mega-pixel and 8
+                                mega-pixel respectively)</li>
+                            <li>Battery: 2000mAh</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Card Content -->
+        </div>
+        <!-- The End of Mobile Phone Row-->
+        <hr />
+        <!-- Accessories Row -->
+        <div class="row p-3" id="Accessories" style="background-color: lightgray">
+            <!-- Header -->
+            <h3 class="w-100 bg-success text-center text-white py-2 my-3 rounded">
+                Accessories
+            </h3>
+            <!-- End of Header -->
+            <!-- Card Content -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/Flash-1.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">ADATA FLASH</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>C008 Capless Sliding USB Flash Drive</li>
+                            <li>Capacity : 8GB / 16GB / 32GB / 64GB</li>
+                            <li>Texture : Plastic</li>
+                            <li>Dimensions ( L x W x H ) : 60 x 20 x 9mm</li>
+                            <li>Weight : 10g</li>
+                            <li>Interface : USB 2.0</li>
+                            <li>Performance : N/A</li>
+                            <li>System requirements : Windows XP, Vista, 7, 8, 8.1, 10, Mac OS X 10、Linux kernel 2.6
+                            </li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/Mouse-1.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">GAMING MOUSE</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>MODEL NAME: CLUTCH GM11</li>
+                            <li>INTERFACE: USB 2.0</li>
+                            <li>LED LIGHT: RGB</li>
+                            <li>POLLING RATE: 1000 Hz / 1 ms</li>
+                            <li>SENSOR: PixArt PMW-3325 Optical Sensor</li>
+                            <li>MAX DPI: 5000</li>
+                            <li>PRESET SWITCHABLE DPI: 400 / 800 / 1600 / 3200 / 5000</li>
+                            <li>SWITCH TYPE: OMRON</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/TYPE-C-1.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">TYPE-C</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>RICO 6-in-1 Type-C Adapter PD 3.0 5-20V/100W MAX (MC-U601P)</li>
+                            <li>1) Color: Gray</li>
+                            <li>2) Input: Type-C*1</li>
+                            <li>3) Output: PD3.0*1;USB3.0*2,TF3.0/SD3.0*1;HDMI*1</li>
+                            <li>4) Material: Aluminium Alloy</li>
+                            <li>5) Speed: 5gbps</li>
+                            <li>6) Cable Length: 30cm</li>
+                            <li>7) PICC Insurance: 300000USD global insurance</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+                <div class="card p-2 shadow" style="background-color: #dfdfdf">
+                    <img src="image/Webcam HD-1.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">WEBCAM HD</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>LOGITECH</li>
+                            <li>Logitech C615 HD Webcam</li>
+                            <li>Logitech HD Webcam C615. HD video calling and sharing—however, whatever, wherever you
+                                like. Record in breathtaking widescreen Full HD 1080p. Video call in HD 720p</li>
+                            <li>Full HD 1080p recording</li>
+                            <li>1-click HD upload to Facebook & YouTube</li>
+                            <li>HD 720p video calling</li>
+                        </ul>
+                        </p>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Shop now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Card Content -->
+        </div>
+        <!-- End of Accessories Row -->
+        <hr />
+        <!-- Feedback Row -->
+        <div class="row p-3" style="background-color: lightgray">
+            <!-- Header -->
+            <h3 class="w-100 bg-info text-center text-dark py-2 my-3 rounded">
+                Feedback
+            </h3>
+            <!-- End of Header -->
+            <!-- Card Content -->
+            <div class="card w-75 mx-auto bg-primary text-white my-3">
+                <div class="card-header">Feedback</div>
+                <div class="card-body">
+                    <h5 class="card-title">Fashion Feedback</h5>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Perferendis, quaerat? Nesciunt ipsum ullam ipsa esse officiis
+                        voluptatum facilis, eius harum.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card w-75 mx-auto bg-danger text-white my-3">
+                <div class="card-header">Feedback</div>
+                <div class="card-body">
+                    <h5 class="card-title">Lenovo's Product Feedback</h5>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Perferendis, quaerat? Nesciunt ipsum ullam ipsa esse officiis
+                        voluptatum facilis, eius harum.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card w-75 mx-auto bg-secondary text-white my-3">
+                <div class="card-header">Feedback</div>
+                <div class="card-body">
+                    <h5 class="card-title">Acer's product feedback</h5>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Perferendis, quaerat? Nesciunt ipsum ullam ipsa esse officiis
+                        voluptatum facilis, eius harum.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card w-75 mx-auto bg-warning text-dark my-3">
+                <div class="card-header">Feedback</div>
+                <div class="card-body">
+                    <h5 class="card-title">Huawei's product feedback</h5>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Perferendis, quaerat? Nesciunt ipsum ullam ipsa esse officiis
+                        voluptatum facilis, eius harum.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card w-75 mx-auto bg-success text-white my-3">
+                <div class="card-header">Feedback</div>
+                <div class="card-body">
+                    <h5 class="card-title">OukiTel's Product Feedback</h5>
+                    <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Perferendis, quaerat? Nesciunt ipsum ullam ipsa esse officiis
+                        voluptatum facilis, eius harum.
+                    </p>
+                </div>
+            </div>
+            <!-- End of Card Content -->
+        </div>
+
+        <!-- End of Feedback Row -->
+        <hr />
+        <!-- About Row-->
+        <div class="row p-3" id="about" style="background-color: lightgray">
+            <!-- Header -->
+            <h3 class="w-100 bg-info text-center text-dark py-2 my-3 rounded">
+                About
+            </h3>
+            <!--End of Header -->
+            <!-- Card Content -->
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="Card p-2 shadow" style="background-color: #dfdfdf">
+                    <div class="card-body">
+                        <h5 class="card-title">About Us</h5>
+                        <p class="card-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Tempore quibusdam repellat facere, praesentium pariatur
+                            explicabo. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quod laboriosam rerum quia corrupti consectetur, eligendi
+                            porro! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Laboriosam beatae distinctio, odio consectetur architecto velit
+                            fugit eligendi nisi, commodi, totam tempore excepturi ullam!
+                            Iure nostrum reiciendis voluptates ea corrupti eos?
+                        </p>
+                        <img src="image/About-1.jpg" class="card-img-bottom" />
+                    </div>
+                </div>
+            </div>
+            <!-- End of Card Content -->
+        </div>
+        <!-- End of About Row -->
+        <hr />
+        <!-- contact Row -->
+        <h3 class="w-100 bg-info text-center text-dark py-2 my-3 rounded" id="contact">
+            Contact
+        </h3>
+        <form class="my-1 border px-3 border-primary border-bottom-0">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" aria-describedby="">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="phone" aria-describedby="">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message here</label>
+                <textarea class="form-control mb-4" rows="5" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+        <!-- End of contact Row -->
+    </div>
+    <!-- The End of Container -->
+    <!-- Container fluid -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="w100 bg-secondary">
+                <div class="social icon d-flex justify-content-center my-5 text-white">
+                    <i class="fa-brands fa-facebook mr-4" style="font-size: 50px"></i>
+                    <i class="fa-brands fa-twitter mr-4" style="font-size: 50px"></i>
+                    <i class="fa-brands fa-linkedin mr-4" style="font-size: 50px"></i>
+                    <i class="fa-brands fa-instagram mr-4" style="font-size: 50px"></i>
+                </div>
+                <hr />
+                <div class="copy text-center">
+                    <p class="small">2023 copyright:Online shop</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container fluid -->
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
